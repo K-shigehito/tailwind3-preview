@@ -1,5 +1,5 @@
 <template>
-  <h2 class="mt-[24px] font-bold text-[24px]">scroll-snap</h2>
+  <h2 class="mb-[12px] font-bold text-[24px]">scroll-snap</h2>
   <div
     class="
       flex
@@ -7,7 +7,6 @@
       items-center
       overflow-x-auto
       w-[500px]
-      mt-[12px]
       snap-x snap-mandatory
     "
   >
