@@ -1,5 +1,4 @@
 <template>
-  <h2 class="mb-[12px] font-bold text-[24px]">scroll-snap</h2>
   <div
     class="
       flex
@@ -16,7 +15,7 @@
         items-center
         justify-center
         w-[300px]
-        h-[100px]
+        h-[150px]
         bg-blue-200
         snap-start
       "
@@ -29,7 +28,7 @@
         items-center
         justify-center
         w-[300px]
-        h-[100px]
+        h-[150px]
         bg-rose-200
         snap-center
       "
@@ -42,7 +41,7 @@
         items-center
         justify-center
         w-[300px]
-        h-[100px]
+        h-[150px]
         bg-violet-200
         snap-center
       "
@@ -55,7 +54,7 @@
         items-center
         justify-center
         w-[300px]
-        h-[100px]
+        h-[150px]
         bg-yellow-200
         snap-end
       "
