@@ -1,0 +1,13 @@
+<template>
+  <div
+    class="
+      text-[20px]
+      underline
+      decoration-blue-500
+      hover:decoration-red-500
+      cursor-pointer
+    "
+  >
+    text-decoration-color
+  </div>
+</template>

@@ -9,6 +9,8 @@ import TextIndent from './components/TextIndent.vue';
 import OpenVariant from './components/OpenVariant.vue';
 import Upload from './components/Upload.vue';
 import FlexBasis from './components/FlexBasis.vue';
+import TextDecorationColor from './components/TextDecorationColor.vue';
+import AccentColor from './components/AccentColor.vue';
 </script>
 
 <template>
@@ -37,9 +39,17 @@ import FlexBasis from './components/FlexBasis.vue';
       <BaseHeadding>column</BaseHeadding>
       <Column />
     </div>
+    <div class="pt-[0px]">
+      <BaseHeadding>accent-color</BaseHeadding>
+      <AccentColor />
+    </div>
     <div class="pt-[12px]">
-      <BaseHeadding>column</BaseHeadding>
+      <BaseHeadding>flex-basis</BaseHeadding>
       <FlexBasis />
+    </div>
+    <div class="pt-[12px]">
+      <BaseHeadding>text-decoration-color</BaseHeadding>
+      <TextDecorationColor />
     </div>
 
     <div class="pt-[12px]">
