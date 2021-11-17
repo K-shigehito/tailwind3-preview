@@ -7,7 +7,6 @@ import ScrollBehavior from './components/ScrollBehavior.vue';
 import ScrollSnap from './components/ScrollSnap.vue';
 import TextIndent from './components/TextIndent.vue';
 import OpenVariant from './components/OpenVariant.vue';
-import Upload from './components/Upload.vue';
 import FlexBasis from './components/FlexBasis.vue';
 import TextDecorationColor from './components/TextDecorationColor.vue';
 import AccentColor from './components/AccentColor.vue';
@@ -55,10 +54,6 @@ import AccentColor from './components/AccentColor.vue';
     <div class="pt-[12px]">
       <BaseHeadding>open</BaseHeadding>
       <OpenVariant />
-    </div>
-    <div class="pt-[12px]">
-      <BaseHeadding>upload</BaseHeadding>
-      <Upload />
     </div>
   </div>
 </template>
